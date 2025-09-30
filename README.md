@@ -15,19 +15,11 @@ Le projet est structuré sur deux pages principales dans Power BI :
 
 ## Organisation du projet
 
-Le projet est organisé de la manière suivante :  
-finance_wallet/
-├─ config/
-│ └─ tickers.yaml # Liste des tickers du portefeuille
-├─ data/
-│ ├─ raw/ # Données brutes extraites via Yahoo Finance
-│ └─ processed/ # Données enrichies pour Power BI
-├─ scripts/
-│ ├─ fetch_data.py # Extraction des données depuis Yahoo Finance
-│ ├─ process_data.py # Transformation et enrichissement des données
-│ └─ info_data.py # Récupération des métadonnées
-├─ notebooks/ # Analyses exploratoires éventuelles
-└─ README.md
+Le projet est organisé de la manière suivante :
+
+<img width="867" height="417" alt="image" src="https://github.com/user-attachments/assets/d71efece-4d32-4384-92c2-db38a13c2ef6" />
+
+
 
 <img width="898" height="377" alt="image" src="https://github.com/user-attachments/assets/0d84b68c-e88d-44c0-a20e-add6b6e74581" />
 
@@ -60,8 +52,8 @@ Cette première page permet de filtrer les actifs du portefeuille pour analyser 
 
 
 **Exemples d’indicateurs globaux du portefeuille sur 5 ans :**  
-- Croissance du portefeuille : 0,61  
-- Daily return moyen : 0,017  
+- Croissance du portefeuille : 1,48 
+- Daily return moyen : 17  
 - Volatilité 20 jours : 0,03  
 - Sharpe 20 jours : -0,22  
 - Drawdown moyen : -0,25  
@@ -113,4 +105,5 @@ Grâce à ce projet, il est possible de :
 - Développement d’une **application web (Django)** pour permettre une consultation dynamique et interactive des analyses, destinée aux investisseurs ou aux journalistes financiers.
 
 ---
+
 
