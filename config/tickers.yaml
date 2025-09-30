@@ -1,0 +1,23 @@
+stocks:
+  - name: Opendoor Technologies
+    ticker: OPEN
+  - name: L'Oreal
+    ticker: OR.PA
+  - name: Amazon
+    ticker: AMZN
+  - name: Apple
+    ticker: AAPL
+  - name: Nvidia
+    ticker: NVDA
+
+indices:
+  - name: S&P 500
+    ticker: ^GSPC
+  - name: Euro Stoxx 50
+    ticker: ^STOXX50E
+
+cryptos:
+  - name: Bitcoin
+    ticker: BTC-USD
+  - name: Ethereum
+    ticker: ETH-USD

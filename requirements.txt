@@ -1,0 +1,17 @@
+# Gestion et manipulation des données
+pandas
+pyyaml
+numpy
+
+# Récupération des données financières
+yfinance
+
+# Visualisation
+matplotlib
+plotly
+
+# Optionnel pour accélérer la lecture/sauvegarde parquet
+pyarrow
+
+# Optionnel pour notebooks
+jupyterlab
